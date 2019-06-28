@@ -1,0 +1,6 @@
+---
+applications:
+- name: cicd-green-pivotal
+  instances: 1
+  memory: 600M
+  path: target/cicd-green-pivotal-0.0.1-SNAPSHOT.jar
