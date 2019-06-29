@@ -6,6 +6,6 @@ node {
         def customImage = docker.build('renevoi/cicd-jenkin-docker')
 
         /* Push the container to the custom registry */
-        customImage.push
+        customImage.push()
     }
 }
