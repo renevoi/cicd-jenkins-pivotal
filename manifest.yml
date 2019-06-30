@@ -1,6 +1,6 @@
 ---
 applications:
-- name: cicd-jenkins-pivotal
+- name: cicd-jenkins-pivotal-2
   instances: 1
   memory: 600M
   path: target/cicd-jenkins-pivotal-0.0.1-SNAPSHOT.jar
